@@ -8,6 +8,7 @@ const dotenv = require("dotenv").config();
 
 app.use(logger("dev"));
 app.use(cors());
+app.use(serveStatic(__dirname + "/frontend/dist"));
 
 let API_KEY = process.env.YELP_API_KEY;
 
