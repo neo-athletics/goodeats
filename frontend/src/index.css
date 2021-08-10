@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+footer a{
+  text-decoration: none;
+  color: rgb(2, 130, 204);
+  float: right;
+  margin-right: 30px;
+  font-weight: 700;
+  transition: color .3s ease-in;
+}
+footer a:hover{
+  color: rgb(6, 65, 100);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
