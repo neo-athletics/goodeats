@@ -1,7 +1,7 @@
 const Yelp = {
     search(term, location, sortBy) {
         return fetch(
-            `http://localhost:8080/?term=${term}&location=${location}&sort_by=${sortBy}`,
+            `https://goodeats-api.herokuapp.com/?term=${term}&location=${location}&sort_by=${sortBy}`,
             {
                 method: "GET",
                 mode: "cors",

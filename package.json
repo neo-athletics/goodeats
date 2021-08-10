@@ -2,7 +2,7 @@
     "name": "ravenous",
     "version": "0.1.0",
     "private": true,
-    "proxy": "http://localhost:8080",
+    "proxy": "https://goodeats-api.herokuapp.com/",
     "dependencies": {
         "dotenv": "^8.2.0",
         "react": "^16.8.6",
